@@ -4,7 +4,9 @@
   "description": "Portfolio",
   "main": "index.js",
   "scripts": {
-    "backend": "supervisor backend/server.js"
+    "backend": "nodemon backend/server.js",
+    "frontend": "npm run dev --prefix frontend",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\""
   },
   "repository": {
     "type": "git",
@@ -17,12 +19,13 @@
   },
   "homepage": "https://github.com/sunsesvasko/Portfolio#readme",
   "dependencies": {
+    "concurrently": "^8.2.2",
     "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "mongoose": "^8.4.1",
-    "path": "^0.12.7",
-    "supervisor": "^0.12.0"
+    "nodemon": "^3.1.2",
+    "path": "^0.12.7"
   }
 }
