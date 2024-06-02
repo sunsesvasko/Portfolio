@@ -34,7 +34,7 @@ function Footer() {
           </ul>
         </div>
       </div>
-      <div className="bg-[#17262b] flex flex-col items-center justify-center px-4 rounded-tl-xl rounded-br-xl w-[400px] sm:w-[200px] h-[200px] gap-4">
+      <div className="bg-white text-black flex flex-col items-center justify-center px-4 rounded-tl-xl rounded-br-xl w-[400px] sm:w-[200px] h-[200px] gap-4">
         <img src="./mail.png" alt="" className="w-[32px]" />
         <p>vbblajev@gmail.com</p>
       </div>
