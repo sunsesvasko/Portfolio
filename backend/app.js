@@ -8,6 +8,7 @@ dotenv.config({ path: "./config.env" });
 const cookieParser = require("cookie-parser");
 
 // IMPORTS
+const projectRoutes = require("./routes/projectRoutes");
 
 // SETUP
 const app = express();
@@ -20,6 +21,7 @@ app.use(express.json({ limit: "10kb" }));
 app.use(express.urlencoded({ extended: true, limit: "10kb" }));
 
 // ROUTES
+app.use("/api/projects", projectRoutes);
 
 // EXPORTS
 module.exports = app;

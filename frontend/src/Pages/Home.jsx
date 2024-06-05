@@ -17,8 +17,11 @@ function Home() {
               alt="Project Image"
             />
             <h3 className="px-2 text-lg font-semibold">Project Name</h3>
-            <p className="px-2">
-              Project description is running its course right now
+            <p className="px-2 h-[100px] overflow-y-scroll">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+              quia et, rem nobis adipisci laudantium illum distinctio delectus.
+              Dicta similique modi esse! Minima ipsam vel doloribus ea soluta
+              facere delectus.
             </p>
           </div>
         </div>
