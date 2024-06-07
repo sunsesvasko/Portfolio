@@ -1,6 +1,6 @@
 const Project = require("../models/projectModel");
 const catchAsync = require("../utils/catchAsync");
-const AppError = require("../utils/AppError");
+const AppError = require("../utils/appError");
 
 exports.getProject = catchAsync(async (req, res, next) => {
   const { id: projectId } = req.params;
