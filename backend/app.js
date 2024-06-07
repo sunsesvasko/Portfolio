@@ -20,6 +20,9 @@ app.use(cookieParser());
 app.use(express.json({ limit: "10kb" }));
 app.use(express.urlencoded({ extended: true, limit: "10kb" }));
 
+// ROUTES
+app.use("/api/projects", projectRoutes);
+
 // PRODUCTION
 if (process.env.NODE_ENV === "production") {
   const __dirname = path.resolve();
@@ -29,9 +32,6 @@ if (process.env.NODE_ENV === "production") {
     res.sendFile(path.resolve(__dirname, "frontend", "dist", "index.html"))
   );
 }
-
-// ROUTES
-app.use("/api/projects", projectRoutes);
 
 // EXPORTS
 module.exports = app;
