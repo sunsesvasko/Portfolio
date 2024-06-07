@@ -12,15 +12,6 @@ const DB = process.env.DATABASE.replace(
 
 mongoose.connect(DB).then(() => console.log("Database Connection Successful!"));
 
-if (process.env.NODE_ENV === "production") {
-  const __dirname = path.resolve();
-  app.use(express.static(path.join(__dirname, "frontend/dist")));
-
-  app.get("*", (req, res) =>
-    res.sendFile(path.resolve(__dirname, "frontend", "dist", "index.html"))
-  );
-} else {
-  const server = app.listen(PORT, () =>
-    console.log(`App running on port: ${PORT}`)
-  );
-}
+const server = app.listen(PORT, () =>
+  console.log(`App running on port: ${PORT}`)
+);
