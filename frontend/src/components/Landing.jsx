@@ -8,7 +8,7 @@ function Landing() {
         <h1 className="text-[60px] font-semibold leading-[60px] text-center md:text-start">
           Vasko <br /> Blazhev
         </h1>
-        <p className="text-2xl font-medium">Full Stack Web Developer</p>
+        <p className="text-2xl font-medium">Wannabe Web Developer</p>
         <ul className="flex justify-center gap-2 md:justify-start">
           <li className="bg-[#fee5b5] w-[32px] h-[32px] flex items-center justify-center rounded-[4px]">
             <a href="https://www.linkedin.com" target="_blank">
@@ -16,7 +16,10 @@ function Landing() {
             </a>
           </li>
           <li className="bg-[#fee5b5] w-[32px] h-[32px] flex items-center justify-center rounded-[4px]">
-            <a href="https://www.instagram.com/?hl=bg" target="_blank">
+            <a
+              href="https://www.instagram.com/vasko_.sw/?hl=bg"
+              target="_blank"
+            >
               <img src="./instagram.png" alt="Linked In" className="w-[24px]" />
             </a>
           </li>
