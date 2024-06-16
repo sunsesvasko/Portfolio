@@ -11,15 +11,21 @@ function About() {
           <div className="flex justify-around gap-2">
             <ul className="w-[50%] ">
               <h3 className="text-2xl font-semibold">Hobbies</h3>
-              <li>Going to the Gym</li>
-              <li>Reading Books</li>
-              <li>Walking in Nature</li>
-              <li>Improving Myself</li>
+              <li className="text-lg">Going to the Gym</li>
+              <li className="text-lg">Reading Books</li>
+              <li className="text-lg">Walking in Nature</li>
+              <li className="text-lg">Improving Myself</li>
             </ul>
             <ul className="w-[50%]">
               <h3 className="text-2xl font-semibold">Education</h3>
-              <li>2018 - 2023 | Private Highschool of SoftUni Buditel</li>
-              <li>2024 - 2029 | Business Academy "Dimitar A. Tsenov"</li>
+              <li className="text-lg">
+                <span className="font-semibold">2018 - 2023</span> | Private
+                Highschool of SoftUni Buditel
+              </li>
+              <li className="text-lg">
+                <span className="font-semibold">2024 - 2029</span> | Business
+                Academy "Dimitar A. Tsenov"
+              </li>
             </ul>
           </div>
         </div>
