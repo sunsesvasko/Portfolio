@@ -7,6 +7,7 @@ import store from "./store.js";
 import { BrowserRouter } from "react-router-dom";
 import { Provider } from "react-redux";
 
+// TEST COMMENT
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <Provider store={store}>
