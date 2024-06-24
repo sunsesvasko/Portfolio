@@ -6,7 +6,10 @@
   "scripts": {
     "backend": "nodemon backend/server.js",
     "frontend": "npm run dev --prefix frontend",
-    "dev": "concurrently \"npm run backend\" \"npm run frontend\""
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "install:global": "npm install",
+    "install:frontend": "cd frontend && npm install",
+    "install:all": "npm run install:global && npm run install:frontend"
   },
   "repository": {
     "type": "git",
