@@ -2,13 +2,11 @@ function Project({ project }) {
   const { name, description } = project;
 
   return (
-    <div className="w-[200px] h-auto bg-white text-black ">
-      <img
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/1665px-No-Image-Placeholder.svg.png"
-        alt="Project Image"
-      />
-      <h3 className="px-2 text-lg font-semibold">{name}</h3>
-      <p className="px-2 h-[100px] overflow-y-scroll ">{description}</p>
+    <div className="w-[400px] sm:w-[500px] md:w-[600px] h-auto bg-white text-black flex items-center">
+      <h3 className="px-2 py-4 border-r-[1px] border-black text-xl font-semibold w-[150px]">
+        {name}
+      </h3>
+      <p className="px-2">{description}</p>
     </div>
   );
 }

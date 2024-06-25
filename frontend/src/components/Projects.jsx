@@ -1,4 +1,5 @@
 import Project from "../components/Project";
+import Course from "../components/Course";
 import { useGetProjectsQuery } from "../slices/projectsApiSlice";
 import { useEffect, useState } from "react";
 
@@ -15,12 +16,36 @@ function Projects() {
 
   return (
     <section className="h-[1000px] bg-black text-white flex flex-col items-center justify-start px-8 py-16 gap-8">
-      <h1 className="text-5xl">My Projects</h1>
-      <div className="flex flex-col gap-4 overflow-y-scroll sm:flex-row">
+      <h1 className="text-5xl">My Experience</h1>
+      <ul>
+        <h3 className="text-3xl text-center">School</h3>
+        <p className="text-lg">
+          Mainly C# & Javascript with some SQL here and there.
+        </p>
+      </ul>
+
+      <ul className="flex flex-col gap-4">
+        <h3 className="text-3xl text-center">Solo Courses</h3>
+        <Course
+          name="The Complete JavaScript Course 2024: From Zero to Expert!"
+          link="https://www.udemy.com/course/the-complete-javascript-course/?couponCode=JUST4U02223"
+        />
+        <Course
+          name="Node.js, Express, MongoDB & More: The Complete Bootcamp!"
+          link="https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/?couponCode=JUST4U02223"
+        />
+        <Course
+          name="The Ultimate React Course 2024: React, Next.js, Redux & More!"
+          link="https://www.udemy.com/course/the-ultimate-react-course/?couponCode=JUST4U02223"
+        />
+      </ul>
+
+      <ul className="flex flex-col gap-4">
+        <h3 className="text-3xl text-center">Solo Projects</h3>
         {projects.map((project, i) => (
           <Project project={project} key={i} />
         ))}
-      </div>
+      </ul>
     </section>
   );
 }
