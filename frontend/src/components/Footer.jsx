@@ -1,6 +1,9 @@
 function Footer() {
   return (
-    <footer className="flex flex-col items-center gap-8 p-8 text-white bg-black sm:justify-center sm:flex-row">
+    <footer
+      id="contact"
+      className="flex flex-col items-center gap-8 p-8 text-white bg-black sm:justify-center sm:flex-row"
+    >
       <div className="flex flex-col gap-4">
         <h1 className="text-4xl md:text-5xl sm:text-left">Get in Touch</h1>
 

@@ -2,7 +2,7 @@ import Skill from "../components/Skill";
 
 function Skills() {
   return (
-    <section className="h-[600px] flex items-center justify-center">
+    <section id="skills" className="h-[600px] flex items-center justify-center">
       <ul className="flex flex-col gap-4">
         <h1 className="text-5xl">List of Skills:</h1>
         <div className="flex gap-4">

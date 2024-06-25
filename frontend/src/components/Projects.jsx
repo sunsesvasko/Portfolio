@@ -15,7 +15,10 @@ function Projects() {
   }, [data]);
 
   return (
-    <section className="h-[1000px] bg-black text-white flex flex-col items-center justify-start px-8 py-16 gap-8">
+    <section
+      id="experience"
+      className="h-[1000px] bg-black text-white flex flex-col items-center justify-start px-8 py-16 gap-8"
+    >
       <h1 className="text-5xl">My Experience</h1>
       <ul>
         <h3 className="text-3xl text-center">School</h3>

@@ -1,6 +1,9 @@
 function Landing() {
   return (
-    <div className="h-[800px] text-black flex md:gap-[76px] items-center justify-center flex-col md:flex-row gap-8">
+    <section
+      id="landing"
+      className="h-[800px] text-black flex md:gap-[76px] items-center justify-center flex-col md:flex-row gap-8"
+    >
       <div className="flex flex-col gap-6">
         <p className="text-2xl font-medium text-center md:text-start">
           Hello I'm
@@ -33,7 +36,7 @@ function Landing() {
         alt="Picture of Me"
         className="w-[390px] h-auto rounded-md"
       />
-    </div>
+    </section>
   );
 }
 
