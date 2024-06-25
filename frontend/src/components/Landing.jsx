@@ -11,8 +11,11 @@ function Landing() {
         <p className="text-2xl font-medium">Wannabe Web Developer</p>
         <ul className="flex justify-center gap-2 md:justify-start">
           <li className="bg-[#fee5b5] w-[32px] h-[32px] flex items-center justify-center rounded-[4px]">
-            <a href="https://www.linkedin.com" target="_blank">
-              <img src="frontend\public\linkedin.png" alt="Linked In" className="w-[24px]" />
+            <a
+              href="https://www.instagram.com/vasko_.sw/?hl=bg"
+              target="_blank"
+            >
+              <img src="./image.png" alt="Linked In" className="w-[24px]" />
             </a>
           </li>
           <li className="bg-[#fee5b5] w-[32px] h-[32px] flex items-center justify-center rounded-[4px]">

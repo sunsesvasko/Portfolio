@@ -1,25 +1,19 @@
 function Footer() {
   return (
-    <footer className="flex flex-col items-center gap-2 p-8 text-white bg-black sm:justify-center sm:flex-row">
+    <footer className="flex flex-col items-center gap-8 p-8 text-white bg-black sm:justify-center sm:flex-row">
       <div className="flex flex-col gap-4">
-        <h1 className="text-4xl text-center md:text-5xl sm:text-left">
-          Get in Touch
-        </h1>
+        <h1 className="text-4xl md:text-5xl sm:text-left">Get in Touch</h1>
 
         <div className="flex flex-col gap-2">
-          <p className="w-[400px] text-center sm:text-left md:w-[500px]">
+          <p className="w-[375px]  sm:text-left md:w-[500px]">
             Ecosystem bootstrapping learning curve lean startup disruptive.
             Marketing long tail disruptive agile development partner.
           </p>
 
-          <ul className="flex justify-center gap-2 sm:justify-start">
-            <li className="bg-[#fee5b5] w-[32px] h-[32px] flex items-center justify-center rounded-[4px]">
+          <ul className="flex gap-2 sm:justify-start">
+            <li className="bg-[#fee5b5] w-[32px] h-[32px] flex justify-center rounded-[4px]">
               <a href="https://www.linkedin.com" target="_blank">
-                <img
-                  src="./linkedin.png"
-                  alt="Linked In"
-                  className="w-[24px]"
-                />
+                <img src="./image.png" className="w-[24px]" />
               </a>
             </li>
             <li className="bg-[#fee5b5] w-[32px] h-[32px] flex items-center justify-center rounded-[4px]">
