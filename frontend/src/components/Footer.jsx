@@ -9,8 +9,7 @@ function Footer() {
 
         <div className="flex flex-col gap-2">
           <p className="w-[375px]  sm:text-left md:w-[500px]">
-            Ecosystem bootstrapping learning curve lean startup disruptive.
-            Marketing long tail disruptive agile development partner.
+            Feel free to reach out to me and I'll respond ASAP!
           </p>
 
           <ul className="flex gap-2 sm:justify-start">
