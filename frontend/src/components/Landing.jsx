@@ -29,6 +29,11 @@ function Landing() {
               <img src="./instagram.png" alt="Linked In" className="w-[24px]" />
             </a>
           </li>
+          <li className="bg-[#fee5b5] w-[32px] h-[32px] flex items-center justify-center rounded-[4px]">
+            <a href="https://github.com/sunsesvasko" target="_blank">
+              <img src="./github.png" alt="Linked In" className="w-[24px]" />
+            </a>
+          </li>
         </ul>
       </div>
       <img

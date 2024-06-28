@@ -13,7 +13,7 @@ function Footer() {
           </p>
 
           <ul className="flex gap-2 sm:justify-start">
-            <li className="bg-[#fee5b5] w-[32px] h-[32px] flex justify-center rounded-[4px]">
+            <li className="bg-[#fee5b5] w-[32px] h-[32px] flex justify-center rounded-[4px] items-center">
               <a href="https://www.linkedin.com" target="_blank">
                 <img src="./image.png" className="w-[24px]" />
               </a>
@@ -25,6 +25,11 @@ function Footer() {
                   alt="Linked In"
                   className="w-[24px]"
                 />
+              </a>
+            </li>
+            <li className="bg-[#fee5b5] w-[32px] h-[32px] flex items-center justify-center rounded-[4px]">
+              <a href="https://github.com/sunsesvasko" target="_blank">
+                <img src="./github.png" alt="Linked In" className="w-[24px]" />
               </a>
             </li>
           </ul>
