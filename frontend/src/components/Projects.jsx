@@ -17,7 +17,7 @@ function Projects() {
   return (
     <section
       id="experience"
-      className="h-[1000px] bg-black text-white flex flex-col items-center justify-start px-8 py-16 gap-8"
+      className="h-[1100px] sm:h-[1000px] bg-black text-white flex flex-col items-center justify-start px-8 py-16 gap-8"
     >
       <h1 className="text-5xl">My Experience</h1>
       <ul>
@@ -47,6 +47,7 @@ function Projects() {
 
       <ul className="flex flex-col gap-4">
         <h3 className="text-3xl text-center">Solo Projects</h3>
+        <p>All of these projects have been created using the MERN stack. </p>
         {projects.map((project, i) => (
           <Project project={project} key={i} />
         ))}

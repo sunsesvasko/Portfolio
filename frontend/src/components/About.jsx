@@ -17,7 +17,6 @@ function About() {
               <li className="text-lg">Fast Learner</li>
               <li className="text-lg">Open to Learning</li>
               <li className="text-lg">Communicative</li>
-              <li className="text-lg"></li>
             </ul>
             <ul className="w-[50%]">
               <h3 className="text-2xl font-semibold">Education</h3>
