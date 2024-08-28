@@ -9,7 +9,8 @@ function Footer() {
 
         <div className="flex flex-col gap-2">
           <p className="w-[375px]  sm:text-left md:w-[500px]">
-            Feel free to reach out to me and I'll respond ASAP!
+            If you're interested in learning more or would like a more detailed
+            walkthrough of my work, please feel free to contact me.
           </p>
 
           <ul className="flex gap-2 sm:justify-start">

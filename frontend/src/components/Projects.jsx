@@ -22,8 +22,10 @@ function Projects() {
       <h1 className="text-5xl">My Experience</h1>
       <ul>
         <h3 className="text-3xl text-center">School</h3>
-        <p className="text-lg">
-          Mainly C# & Javascript with some SQL here and there.
+        <p className="text-lg w-[400px] md:w-[500px] lg:w-[600px]">
+          I have studied HTML, CSS, and JavaScript at school, gaining a solid
+          foundation in web development with a focus on professional-level
+          skills and best practices.
         </p>
       </ul>
 

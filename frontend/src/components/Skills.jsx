@@ -4,7 +4,7 @@ function Skills() {
   return (
     <section id="skills" className="h-[600px] flex items-center justify-center">
       <ul className="flex flex-col gap-4">
-        <h1 className="text-5xl">List of Skills:</h1>
+        <h1 className="text-5xl">Technical Skills:</h1>
         <div className="flex gap-4">
           <ul className="flex flex-col gap-2">
             <h3 className="text-3xl">Backend</h3>

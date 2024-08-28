@@ -13,11 +13,11 @@ function About() {
           </p>
           <div className="flex justify-around gap-1 sm:gap-2">
             <ul className="w-[50%] ">
-              <h3 className="text-2xl font-semibold">Hobbies</h3>
-              <li className="text-lg">Going to the Gym</li>
-              <li className="text-lg">Reading Books</li>
-              <li className="text-lg">Walking in Nature</li>
-              <li className="text-lg">Improving Myself</li>
+              <h3 className="text-2xl font-semibold">Personal Skills</h3>
+              <li className="text-lg">Fast Learner</li>
+              <li className="text-lg">Open to Learning</li>
+              <li className="text-lg">Communicative</li>
+              <li className="text-lg"></li>
             </ul>
             <ul className="w-[50%]">
               <h3 className="text-2xl font-semibold">Education</h3>
