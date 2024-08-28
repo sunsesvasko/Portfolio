@@ -11,7 +11,7 @@ function Landing() {
         <h1 className="text-[60px] font-semibold leading-[60px] text-center md:text-start">
           Vasko <br /> Blazhev
         </h1>
-        <p className="text-2xl font-medium">Wannabe Web Developer</p>
+        <p className="text-2xl font-medium">Web Development Student</p>
         <ul className="flex justify-center gap-2 md:justify-start">
           <li className="bg-[#fee5b5] w-[32px] h-[32px] flex items-center justify-center rounded-[4px]">
             <a
