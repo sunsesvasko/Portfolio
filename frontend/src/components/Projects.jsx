@@ -1,19 +1,7 @@
 import Project from "../components/Project";
 import Course from "../components/Course";
-import { useGetProjectsQuery } from "../slices/projectsApiSlice";
-import { useEffect, useState } from "react";
 
 function Projects() {
-  const [projects, setProjects] = useState([]);
-
-  const { data, isLoading } = useGetProjectsQuery();
-
-  useEffect(() => {
-    if (data?.data?.projects) {
-      setProjects(data.data.projects);
-    }
-  }, [data]);
-
   return (
     <section
       id="experience"
@@ -47,10 +35,22 @@ function Projects() {
 
       <ul className="flex flex-col gap-4">
         <h3 className="text-3xl text-center">Solo Projects</h3>
-        <p>All of these projects have been created using the MERN stack. </p>
-        {projects.map((project, i) => (
-          <Project project={project} key={i} />
-        ))}
+        <p className="w-[375px] sm:w-[500px] md:w-[600px]">
+          All of these projects have been created using the MERN stack. They
+          have their own API and Database.
+        </p>
+        <Project
+          name="BookStore"
+          description="A website where a user can track what books he/she has read."
+        />
+        <Project
+          name="BookWise"
+          description="A website where a user can review what books he/she has read."
+        />
+        <Project
+          name="Task Manager"
+          description="A website where a user can track his daily/weekly/monthly tasks."
+        />
       </ul>
     </section>
   );
